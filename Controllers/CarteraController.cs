@@ -31,7 +31,7 @@ namespace AsesoresAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GetCartera([FromHeader] int producoId)
+        public async Task<IActionResult> GetCartera([FromHeader] String userID)
         {
             try
             {
@@ -41,12 +41,14 @@ namespace AsesoresAPI.Controllers
                var ip = HttpContext.Connection.RemoteIpAddress.ToString();
                 _logger.LogInformation("Usuario: {0} IP: {1} Device: {2}", "", ip, "");//, ((uniqueDevice is null) ? "" : uniqueDevice));
 
-                var respuesta = await _carteraService.GetCartera("", "");
+                var respuesta = await _carteraService.GetCartera(userID);
 
                 if (respuesta == null)
                     throw new Exception("NO SE OBTUVIERON RESULTADOS.");
 
-                return Ok(respuesta);
+                object response = new { resultCode = 0, resultDesc = "OK.", contratos = respuesta.Count, data = respuesta };
+
+                return Ok(response);
             }
             catch (System.Data.SqlClient.SqlException e)
             {
@@ -62,18 +64,60 @@ namespace AsesoresAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GetCarteraContratoDetalle([FromRoute] string usuarioId, [FromRoute] int productoId, [FromRoute] long contratoId, [FromHeader] string uniqueDevice)
+        public async Task<IActionResult> GetCarteraContratoDetalle([FromHeader] long contrato)
         {
-            return Ok();
+            try
+            {
+                var ip = HttpContext.Connection.RemoteIpAddress.ToString();
+                _logger.LogInformation("Usuario: {0} IP: {1} Device: {2}", "", ip, "");
+
+                var respuesta = await _carteraService.GetCarteraContratoDetalle(contrato);
+
+                if (respuesta == null)
+                    throw new Exception("NO SE OBTUVIERON RESULTADOS.");
+
+                object response = new { resultCode = 0, resultDesc = "OK.", data = respuesta };
+
+                return Ok(response);
+            }
+            catch (System.Data.SqlClient.SqlException e)
+            {
+                return Helpers.ExceptionErrors.Exception(e.Class, string.Format("{0}.", e.Message), e);
+            }
+            catch (Exception e)
+            {
+                return Helpers.ExceptionErrors.Exception(Helpers.ExceptionErrors.RESPONSE_INTERNAL_SERVER_ERROR, string.Format("ERROR {0}.", e.Message), e);
+            }
         }
 
         [HttpGet(Constants.WS_CARTERA_CREDITO_DETALLE)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GetCarteraCreditoDetalle([FromRoute] string usuarioId, [FromRoute] int productoId, [FromRoute] long contratoId, [FromRoute] long creditoId, [FromHeader] string uniqueDevice)
+        public async Task<IActionResult> GetCarteraCreditoDetalle([FromHeader] int contrato, [FromHeader] string cveCliente)
         {
-            return Ok();
+            try
+            {
+                var ip = HttpContext.Connection.RemoteIpAddress.ToString();
+                _logger.LogInformation("Usuario: {0} IP: {1} Device: {2}", "", ip, "");
+
+                var respuesta = await _carteraService.GetCarteraCreditoDetalle(contrato, cveCliente);
+
+                if (respuesta == null)
+                    throw new Exception("NO SE OBTUVIERON RESULTADOS.");
+
+                object response = new { resultCode = 0, resultDesc = "OK.", data = respuesta };
+
+                return Ok(response);
+            }
+            catch (System.Data.SqlClient.SqlException e)
+            {
+                return Helpers.ExceptionErrors.Exception(e.Class, string.Format("{0}.", e.Message), e);
+            }
+            catch (Exception e)
+            {
+                return Helpers.ExceptionErrors.Exception(Helpers.ExceptionErrors.RESPONSE_INTERNAL_SERVER_ERROR, string.Format("ERROR {0}.", e.Message), e);
+            }
         }
 
 

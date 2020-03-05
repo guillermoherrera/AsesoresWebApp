@@ -9,9 +9,9 @@ namespace AsesoresAPI.Services
 {
     public interface ICarteraService
     {
-        Task<List<Contrato>> GetCartera(string usuarioId, string uniqueDevice);
-        Task<List<object>> GetCarteraContratoDetalle(string usuarioId, int productoId, long contratoId, string uniqueDevice);
-        Task<List<object>> GetCarteraCreditoDetalle(string usuarioId, int productoId, long contratoId, long creditoId, string uniqueDevice);
+        Task<List<Contrato>> GetCartera(string userID);
+        Task<ContratoDetalle> GetCarteraContratoDetalle(long contrato);
+        Task<IntegranteDetalle> GetCarteraCreditoDetalle(int contrato, string cveCliente);
     }
 
     public class CarteraService : ICarteraService
@@ -23,21 +23,27 @@ namespace AsesoresAPI.Services
             _appSettings = appSettings.Value;
         }
 
-        public async Task<List<Contrato>> GetCartera(string usuarioId, string uniqueDevice)
+        public async Task<List<Contrato>> GetCartera(string userID)
         {
             CarteraSQL sql = new CarteraSQL(_appSettings);
-            List<Contrato> datos = await sql.CarteraGrupos(usuarioId, uniqueDevice);
+            List<Contrato> datos = await sql.CarteraGrupos(userID);
             return datos;
         }
 
-        public Task<List<object>> GetCarteraContratoDetalle(string usuarioId, int productoId, long contratoId, string uniqueDevice)
+        public async Task<ContratoDetalle> GetCarteraContratoDetalle(long contrato)
         {
-            throw new System.NotImplementedException();
+            CarteraSQL sql = new CarteraSQL(_appSettings);
+            ContratoDetalle contratoDetalle = await sql.CarteraContratoDetalle(contrato);
+            return contratoDetalle;
+            //throw new System.NotImplementedException();
         }
 
-        public Task<List<object>> GetCarteraCreditoDetalle(string usuarioId, int productoId, long contratoId, long creditoId, string uniqueDevice)
+        public async Task<IntegranteDetalle> GetCarteraCreditoDetalle(int contrato, string cveCliente)
         {
-            throw new System.NotImplementedException();
+            CarteraSQL sql = new CarteraSQL(_appSettings);
+            IntegranteDetalle integranteDetalle = await sql.CarteraCreditoDetalle(contrato, cveCliente); 
+            return integranteDetalle;
+            //throw new System.NotImplementedException();
         }
 
         //public Task<List<object>> GetGrupos(string usuarioId)

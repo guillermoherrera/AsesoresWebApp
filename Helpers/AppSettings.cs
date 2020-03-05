@@ -16,6 +16,9 @@ namespace WebApi.Helpers
         public string procedureHeaders { get; set; }
 
         public string procedureLogin { get; set; }
+        public string procedureContratos { get; set; }
+        public string procedureContratoDetalle { get; set; }
+        public string procedureCreditoDetalle { get; set; }
         public string procedureCarteraGrupos { get; set; }
 
         public string APIKeyName { get; set; }
