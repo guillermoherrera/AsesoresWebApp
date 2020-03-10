@@ -7,6 +7,7 @@ namespace AsesoresAPI.Entities
 {
     public class Contrato
     {
+        public string status { get; set; }
         public long contratoId { get; set; }
         public string nombreGeneral { get; set; }
         public string fechaTermina { get; set; }

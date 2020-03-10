@@ -10,8 +10,8 @@ namespace AsesoresAPI.Services
     public interface ICarteraService
     {
         Task<List<Contrato>> GetCartera(string userID);
-        Task<ContratoDetalle> GetCarteraContratoDetalle(long contrato);
-        Task<IntegranteDetalle> GetCarteraCreditoDetalle(int contrato, string cveCliente);
+        Task<ContratoDetalle> GetCarteraContratoDetalle(string userID, long contrato);
+        Task<IntegranteDetalle> GetCarteraCreditoDetalle(int contrato, string cveCliente, string userID);
     }
 
     public class CarteraService : ICarteraService
@@ -30,18 +30,18 @@ namespace AsesoresAPI.Services
             return datos;
         }
 
-        public async Task<ContratoDetalle> GetCarteraContratoDetalle(long contrato)
+        public async Task<ContratoDetalle> GetCarteraContratoDetalle(string userID, long contrato)
         {
             CarteraSQL sql = new CarteraSQL(_appSettings);
-            ContratoDetalle contratoDetalle = await sql.CarteraContratoDetalle(contrato);
+            ContratoDetalle contratoDetalle = await sql.CarteraContratoDetalle(userID, contrato);
             return contratoDetalle;
             //throw new System.NotImplementedException();
         }
 
-        public async Task<IntegranteDetalle> GetCarteraCreditoDetalle(int contrato, string cveCliente)
+        public async Task<IntegranteDetalle> GetCarteraCreditoDetalle(int contrato, string cveCliente, string userID)
         {
             CarteraSQL sql = new CarteraSQL(_appSettings);
-            IntegranteDetalle integranteDetalle = await sql.CarteraCreditoDetalle(contrato, cveCliente); 
+            IntegranteDetalle integranteDetalle = await sql.CarteraCreditoDetalle(contrato, cveCliente, userID); 
             return integranteDetalle;
             //throw new System.NotImplementedException();
         }

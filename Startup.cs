@@ -59,6 +59,7 @@ namespace WebApi
 
             services.AddScoped<IUsuarioService, UsuarioService>();
             services.AddScoped<ICarteraService, CarteraService>();
+            services.AddScoped<IRenovacionService, RenovacionService>();
 
             services.AddSwaggerGen(c =>
             {

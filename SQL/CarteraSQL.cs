@@ -38,6 +38,7 @@ namespace AsesoresAPI.SQL
                 {
                     Contrato contrato = new Contrato
                     {
+                        status = dataRow[0].ToString(),
                         fechaTermina = dataRow[1].ToString(),
                         nombreGeneral = dataRow[2].ToString(),
                         contratoId = int.Parse(dataRow[3].ToString())
@@ -49,7 +50,7 @@ namespace AsesoresAPI.SQL
             return contratos;
         }
 
-        public async Task<ContratoDetalle> CarteraContratoDetalle(long contrato)
+        public async Task<ContratoDetalle> CarteraContratoDetalle(string userID, long contrato)
         {
             ContratoDetalle contratoDetalle = new ContratoDetalle();
 
@@ -57,7 +58,8 @@ namespace AsesoresAPI.SQL
             {
                 SqlParameter[] parameters =
                 {
-                    new SqlParameter("@contrato", contrato){SqlDbType = SqlDbType.Int, Direction = ParameterDirection.Input}
+                    new SqlParameter("@contrato", contrato){SqlDbType = SqlDbType.Int, Direction = ParameterDirection.Input},
+                    new SqlParameter("@userID", userID){SqlDbType = SqlDbType.VarChar, Size = 150, Direction = ParameterDirection.Input}
                 };
 
                 DataTable exec = Helpers.SqlHelper.ExecuteDataTable(connection, CommandType.StoredProcedure, _appSettings.procedureContratoDetalle, parameters, 2);
@@ -81,6 +83,7 @@ namespace AsesoresAPI.SQL
                         contratoDetalle.status = dataRow[12].ToString();
                         contratoDetalle.integrantesCant = exec.Rows.Count;
                         contratoDetalle.integrantes = new List<Integrante>();
+                        contratoDetalle.renovado = Boolean.Parse(dataRow[20].ToString());
                     }
 
                     Integrante integrante = new Integrante
@@ -88,7 +91,12 @@ namespace AsesoresAPI.SQL
                         cveCli = dataRow[13].ToString(),
                         nombreCom = dataRow[14].ToString(),
                         telefonoCel = dataRow[15].ToString(),
-                        importeT = double.Parse(dataRow[16].ToString())
+                        importeT = double.Parse(dataRow[16].ToString()),
+                        capital = double.Parse(dataRow[17].ToString()),
+                        diaAtr = int.Parse(dataRow[18].ToString()),
+                        noCda = int.Parse(dataRow[19].ToString()),
+                        tesorero = int.Parse(dataRow[21].ToString()) == 1 ? true : false,
+                        presidente = int.Parse(dataRow[22].ToString()) == 1 ? true : false,
                     };
                     contratoDetalle.integrantes.Add(integrante);
                 }
@@ -97,7 +105,7 @@ namespace AsesoresAPI.SQL
             return contratoDetalle;
         }
     
-        public async Task<IntegranteDetalle> CarteraCreditoDetalle(long contrato, string cveCliente)
+        public async Task<IntegranteDetalle> CarteraCreditoDetalle(long contrato, string cveCliente, string userID)
         {
             IntegranteDetalle integranteDetalle = new IntegranteDetalle();
             using(SqlConnection connection = new SqlConnection(_appSettings.cadenaConexionSQLServer))
@@ -105,7 +113,8 @@ namespace AsesoresAPI.SQL
                 SqlParameter[] parameters =
                 {
                     new SqlParameter("@contratoGrupo", contrato){SqlDbType = SqlDbType.Int, Direction = ParameterDirection.Input},
-                    new SqlParameter("@cveCliente", cveCliente){SqlDbType = SqlDbType.VarChar, Size = 7, Direction = ParameterDirection.Input}
+                    new SqlParameter("@cveCliente", cveCliente){SqlDbType = SqlDbType.VarChar, Size = 7, Direction = ParameterDirection.Input},
+                    new SqlParameter("@userID", userID){SqlDbType = SqlDbType.VarChar, Size = 150, Direction = ParameterDirection.Input}
                 };
 
                 DataTable exec = Helpers.SqlHelper.ExecuteDataTable(connection, CommandType.StoredProcedure, _appSettings.procedureCreditoDetalle, parameters, 3);

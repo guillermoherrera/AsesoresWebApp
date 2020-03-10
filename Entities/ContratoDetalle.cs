@@ -20,7 +20,9 @@ namespace AsesoresAPI.Entities
         public double interes { get; set; }
         public string contacto { get; set; }
         public string status { get; set; }
+        public bool renovado { get; set; }
         public int integrantesCant { get; set; }
         public List<Integrante> integrantes { get; set; }
+        
     }
 }
