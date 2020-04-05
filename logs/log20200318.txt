@@ -1,0 +1,25 @@
+2020-03-18T20:04:13.5439174-06:00 [INF] [] : Iniciado API...
+2020-03-18T20:04:17.2824552-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-18T20:04:20.1232149-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-18T20:04:20.1240671-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-18T20:04:20.1252571-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-18T20:04:20.1253767-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-18T20:04:20.1254643-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-18T20:05:52.9458190-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.0.33:4000/renovacion/contratosAsesor  
+2020-03-18T20:05:56.2341247-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RenovacionController.GetCartera (AsesoresAPI)"'
+2020-03-18T20:05:56.4231345-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Renovacion\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String, System.String)" on controller "AsesoresAPI.Controllers.RenovacionController" ("AsesoresAPI").
+2020-03-18T20:05:56.5670967-06:00 [INF] [AsesoresAPI.Controllers.RenovacionController] : Usuario: "" IP: "192.168.0.33" Device: ""
+2020-03-18T20:05:57.1561410-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-18T20:05:57.2766528-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RenovacionController.GetCartera (AsesoresAPI)" in 831.3462ms
+2020-03-18T20:05:57.2794961-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RenovacionController.GetCartera (AsesoresAPI)"'
+2020-03-18T20:05:57.2996145-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4365.1688ms 200 application/json; charset=utf-8
+2020-03-18T20:07:04.5382877-06:00 [INF] [] : Iniciado API...
+2020-03-18T20:07:05.6426170-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-18T20:07:06.3767542-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-18T20:07:06.3772112-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-18T20:07:06.3781310-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-18T20:07:06.3782277-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-18T20:07:06.3783271-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-18T20:07:31.1401349-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.0.33:4000/renovacion/contratosAsesor  
+2020-03-18T20:07:53.2537845-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-18T20:07:53.6107896-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 22474.9438ms 500 text/plain

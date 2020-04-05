@@ -1,0 +1,15 @@
+2020-03-10T12:31:53.1755799-06:00 [INF] [] : Iniciado API...
+2020-03-10T12:31:56.9924742-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-10T12:31:58.1324213-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-10T12:31:58.1326880-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-10T12:31:58.1333087-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-10T12:31:58.1333681-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-10T12:31:58.1334118-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-10T12:32:02.0021542-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/renovacion/contratosAsesor  
+2020-03-10T12:32:03.0619177-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RenovacionController.GetCartera (AsesoresAPI)"'
+2020-03-10T12:32:03.1487973-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Renovacion\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String, System.String)" on controller "AsesoresAPI.Controllers.RenovacionController" ("AsesoresAPI").
+2020-03-10T12:32:03.2177082-06:00 [INF] [AsesoresAPI.Controllers.RenovacionController] : Usuario: "" IP: "192.168.70.94" Device: ""
+2020-03-10T12:32:03.3419909-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-10T12:32:03.3986491-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RenovacionController.GetCartera (AsesoresAPI)" in 236.8537ms
+2020-03-10T12:32:03.3998014-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RenovacionController.GetCartera (AsesoresAPI)"'
+2020-03-10T12:32:03.4100288-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1413.4716ms 200 application/json; charset=utf-8

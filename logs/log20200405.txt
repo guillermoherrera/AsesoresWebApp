@@ -1,0 +1,8 @@
+2020-04-05T13:39:43.4628703-05:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://192.168.0.33:4000/registro/cliente_buro application/json; charset=utf-8 395
+2020-04-05T13:39:44.0488792-05:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-04-05T13:39:44.0522395-05:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-04-05T13:39:45.7684013-05:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "192.168.0.33" Device: ""
+2020-04-05T13:39:47.5655052-05:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Dynamic.ExpandoObject"'.
+2020-04-05T13:39:47.5712071-05:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 3518.0755ms
+2020-04-05T13:39:47.5731067-05:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-04-05T13:39:47.5761492-05:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4115.635ms 200 application/json; charset=utf-8

@@ -16,6 +16,7 @@ namespace AsesoresAPI
 
         public const string WS_GROUP_CARTERA = "cartera";
         public const string WS_GROUP_RENOVACION = "renovacion";
+        public const string WS_GROUP_REGISTRO = "registro";
         /*
         public const string WS_CARTERA_GRUPOS = "grupos/{usuarioId}";
         public const string WS_CARTERA_GRUPOS_DETALLE = "grupos/detalle/{usuarioId}/{grupoId}";
@@ -25,5 +26,7 @@ namespace AsesoresAPI
         public const string WS_CARTERA_CREDITO_DETALLE  = "creditoDetalle";
 
         public const string WS_RENOVACION = "contratosAsesor";
+
+        public const string WS_REGISTRO_CLIENTE_BURO = "cliente_buro";
     }
 }

@@ -1,0 +1,17 @@
+2020-03-28T10:41:32.0401674-06:00 [INF] [] : Iniciado API...
+2020-03-28T10:41:33.5454051-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-28T10:41:35.1507655-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-03-28T10:41:35.2720746-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-28T10:41:35.2721268-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-28T10:41:35.2724050-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-28T10:41:35.2724287-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-28T10:41:35.2724511-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-28T10:41:35.6237094-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 474.8314ms 200 text/html;charset=utf-8
+2020-03-28T10:41:35.9778909-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-03-28T10:41:36.3240091-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 346.434ms 200 application/json;charset=utf-8
+2020-03-28T10:42:13.1618616-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 350
+2020-03-28T10:42:13.1950287-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-28T10:42:14.7297286-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-28T10:42:14.7299192-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-28T10:42:14.7326760-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUJ6RGE28C6"", Request id ""0HLUJ6RGE28C6:00000003"": An unhandled exception was thrown by the application.
+2020-03-28T10:42:14.7328377-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1571.139ms 401 

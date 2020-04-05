@@ -11,6 +11,7 @@ namespace WebApi.Helpers
         public string nombreAPI { get; set; }
         public string versionAPI { get; set; }
         public string cadenaConexionSQLServer { get; set; }
+        public string cadenaConexionSQLServerPrueba { get; set; }
 
 
         public string procedureHeaders { get; set; }
@@ -20,6 +21,10 @@ namespace WebApi.Helpers
         public string procedureContratoDetalle { get; set; }
         public string procedureCreditoDetalle { get; set; }
         public string procedureCarteraGrupos { get; set; }
+        public string procedureRegistroClienteBuroVR { get; set; }
+        public string procedureRegistroClienteBuroOPOR { get; set; }
+        public string procedureRegistroClienteBuroCR { get; set; }
+        public string procedureRegistroClienteBuroGYT { get; set; }
 
         public string APIKeyName { get; set; }
         public string APIKeyValue { get; set; }

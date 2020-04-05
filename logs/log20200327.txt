@@ -1,0 +1,292 @@
+2020-03-27T12:00:22.6742527-06:00 [INF] [] : Iniciado API...
+2020-03-27T12:00:25.2110152-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T12:00:26.6497837-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T12:00:26.6500307-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T12:00:26.6501750-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T12:00:26.6501919-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T12:00:26.6502073-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T12:00:41.8624914-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-03-27T12:00:42.3463658-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-standalone-preset.js  
+2020-03-27T12:00:42.3463658-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui.css  
+2020-03-27T12:00:42.3463660-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-bundle.js  
+2020-03-27T12:00:42.3474523-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 487.4632ms 200 text/html;charset=utf-8
+2020-03-27T12:00:42.4001526-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : The file "/swagger-ui-bundle.js" was not modified
+2020-03-27T12:00:42.4001526-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : The file "/swagger-ui.css" was not modified
+2020-03-27T12:00:42.4001859-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : The file "/swagger-ui-standalone-preset.js" was not modified
+2020-03-27T12:00:42.4009299-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 54.5796ms 304 application/javascript
+2020-03-27T12:00:42.4009253-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 54.5814ms 304 text/css
+2020-03-27T12:00:42.4009429-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 54.5813ms 304 application/javascript
+2020-03-27T12:00:42.9086022-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-03-27T12:00:42.9177426-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-03-27T12:00:42.9189274-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : The file "/favicon-32x32.png" was not modified
+2020-03-27T12:00:42.9196305-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.6824ms 304 image/png
+2020-03-27T12:00:43.0742082-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 165.7259ms 200 application/json;charset=utf-8
+2020-03-27T12:01:45.8177667-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 26
+2020-03-27T12:01:45.8605774-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T12:01:47.1862821-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-27T12:01:47.1864809-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-27T12:01:47.1915310-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUIF31R6M63"", Request id ""0HLUIF31R6M63:00000003"": An unhandled exception was thrown by the application.
+2020-03-27T12:01:47.1917451-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1374.1107ms 401 
+2020-03-27T12:03:33.1349080-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 26
+2020-03-27T12:03:33.1376308-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T12:03:33.2864326-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:03:33.3514111-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T12:03:33.4590562-06:00 [INF] [Microsoft.AspNetCore.Mvc.StatusCodeResult] : Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-03-27T12:03:33.4674798-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 107.6582ms
+2020-03-27T12:03:33.4675956-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:03:33.4681165-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 333.4873ms 200 
+2020-03-27T12:03:56.0934233-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 26
+2020-03-27T12:03:56.0947585-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T12:03:56.1629948-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:03:56.1636102-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T12:04:12.8729586-06:00 [INF] [Microsoft.AspNetCore.Mvc.StatusCodeResult] : Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-03-27T12:04:12.8732303-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 16709.4693ms
+2020-03-27T12:04:12.8733112-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:04:12.8738983-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 16780.8504ms 200 
+2020-03-27T12:45:26.6724817-06:00 [INF] [] : Iniciado API...
+2020-03-27T12:45:27.8021339-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T12:45:28.5078868-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T12:45:28.5079504-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T12:45:28.5081920-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T12:45:28.5082137-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T12:45:28.5082317-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T12:45:30.2049383-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-03-27T12:45:30.4124848-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 210.1067ms 200 text/html;charset=utf-8
+2020-03-27T12:45:30.7871276-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-03-27T12:45:30.8246471-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-03-27T12:45:30.8710052-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-03-27T12:45:30.8713213-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 46.6123ms 200 image/png
+2020-03-27T12:45:30.9738681-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 186.8837ms 200 application/json;charset=utf-8
+2020-03-27T12:45:55.6424355-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 338
+2020-03-27T12:45:55.6923381-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T12:45:56.5166737-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:45:56.5789103-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T12:45:56.6859683-06:00 [ERR] [] : Error 
+2020-03-27T12:45:56.6897111-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T12:45:56.8028232-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 218.1287ms
+2020-03-27T12:45:56.8029161-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:45:56.8056993-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1164.0342ms 500 application/json; charset=utf-8
+2020-03-27T12:48:33.0528598-06:00 [INF] [] : Iniciado API...
+2020-03-27T12:48:34.1491160-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T12:48:34.8308801-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T12:48:34.8309545-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T12:48:34.8311946-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T12:48:34.8312318-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T12:48:34.8312604-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T12:48:38.5434820-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 338
+2020-03-27T12:48:38.6034113-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T12:48:39.3612184-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:48:39.4037295-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T12:48:39.5444664-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T12:48:39.5488415-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"AsesoresAPI.Entities.JsonResult"'.
+2020-03-27T12:48:39.5631094-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 153.0667ms
+2020-03-27T12:48:39.5637970-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:48:39.5674357-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1034.8449ms 200 application/json; charset=utf-8
+2020-03-27T12:49:29.4444838-06:00 [INF] [] : Iniciado API...
+2020-03-27T12:49:30.5364291-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T12:49:31.2745626-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T12:49:31.2746678-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T12:49:31.2750752-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T12:49:31.2751241-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T12:49:31.2751673-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T12:49:35.2631127-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 338
+2020-03-27T12:49:35.3142520-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T12:49:36.2292653-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:49:36.2685912-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T12:49:36.3119030-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T12:49:36.3649986-06:00 [ERR] [] : Error 
+2020-03-27T12:49:36.3676681-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T12:49:36.3813080-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 107.8147ms
+2020-03-27T12:49:36.3817927-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T12:49:36.3851730-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1129.3847ms 500 application/json; charset=utf-8
+2020-03-27T13:28:59.8328992-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...
+2020-03-27T14:38:40.7385922-06:00 [INF] [] : Iniciado API...
+2020-03-27T14:38:42.5283848-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T14:38:44.5919982-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T14:38:44.5921494-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T14:38:44.5924631-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T14:38:44.5924872-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T14:38:44.5925355-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T14:40:00.2515153-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-03-27T14:40:00.4882668-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 241.3113ms 200 text/html;charset=utf-8
+2020-03-27T14:40:00.7843073-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-03-27T14:40:00.7911662-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-03-27T14:40:00.8185035-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-03-27T14:40:00.8187300-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 34.8132ms 200 image/png
+2020-03-27T14:40:00.9304941-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 139.2205ms 200 application/json;charset=utf-8
+2020-03-27T14:44:11.2800866-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 406
+2020-03-27T14:44:11.3235784-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:44:12.1210482-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:44:12.1631508-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:44:12.2128546-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:49:48.2526429-06:00 [INF] [] : Iniciado API...
+2020-03-27T14:49:49.3135462-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T14:49:49.9297909-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T14:49:49.9298660-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T14:49:49.9301911-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T14:49:49.9302262-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T14:49:49.9302554-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T14:50:11.7613328-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 406
+2020-03-27T14:50:11.8217959-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:50:12.5464137-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:50:12.5953534-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:50:12.6591893-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:50:36.1522601-06:00 [ERR] [] : Error 
+2020-03-27T14:50:36.1591128-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T14:50:36.1869188-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 23584.9536ms
+2020-03-27T14:50:36.1884049-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:50:36.1925396-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 24434.5744ms 500 application/json; charset=utf-8
+2020-03-27T14:51:39.7107716-06:00 [INF] [] : Iniciado API...
+2020-03-27T14:51:40.9762541-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T14:51:41.7134103-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T14:51:41.7135303-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T14:51:41.7139373-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T14:51:41.7139796-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T14:51:41.7140348-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T14:52:23.8493958-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 406
+2020-03-27T14:52:23.8993869-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:52:24.5887321-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:52:24.6324188-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:52:24.6958327-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:52:38.6432194-06:00 [ERR] [] : Error 
+2020-03-27T14:52:38.6504873-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T14:52:38.6637251-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 14026.4757ms
+2020-03-27T14:52:38.6647025-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:52:38.6707882-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14824.1683ms 500 application/json; charset=utf-8
+2020-03-27T14:55:39.5318883-06:00 [INF] [] : Iniciado API...
+2020-03-27T14:55:40.7549092-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T14:55:41.4839202-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T14:55:41.4840905-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T14:55:41.4844024-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T14:55:41.4844389-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T14:55:41.4844907-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T14:55:48.8602241-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 406
+2020-03-27T14:55:48.9136008-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:55:49.6527138-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:55:49.7011478-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:55:49.7469784-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:55:55.8193946-06:00 [ERR] [] : Error 
+2020-03-27T14:55:55.8267154-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T14:55:55.8406641-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 6132.5166ms
+2020-03-27T14:55:55.8416447-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:55:55.8455389-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6991.2819ms 500 application/json; charset=utf-8
+2020-03-27T14:56:44.0816213-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 419
+2020-03-27T14:56:44.0838458-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:56:44.1695898-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:56:44.1702588-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:56:44.1726230-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:57:33.9456262-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 419
+2020-03-27T14:57:33.9505750-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:57:34.0192341-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:57:34.0196772-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:57:34.0217609-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:57:36.9580376-06:00 [ERR] [] : Error 
+2020-03-27T14:57:36.9594997-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T14:57:36.9648979-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 52789.6396ms
+2020-03-27T14:57:36.9650744-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:57:36.9655932-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 52884.0347ms 500 application/json; charset=utf-8
+2020-03-27T14:58:06.6510486-06:00 [INF] [] : Iniciado API...
+2020-03-27T14:58:07.7814078-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T14:58:08.4846573-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T14:58:08.4847864-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T14:58:08.4852451-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T14:58:08.4852736-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T14:58:08.4852951-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T14:58:12.8303885-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 419
+2020-03-27T14:58:12.8824522-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T14:58:13.6096239-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:58:13.6548953-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T14:58:13.7009588-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T14:58:14.2836087-06:00 [ERR] [] : Error 
+2020-03-27T14:58:14.2908166-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T14:58:14.3063175-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 643.6069ms
+2020-03-27T14:58:14.3079358-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T14:58:14.3134493-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1487.345ms 500 application/json; charset=utf-8
+2020-03-27T15:58:03.6850803-06:00 [INF] [] : Iniciado API...
+2020-03-27T15:58:04.7503890-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T15:58:05.3363296-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T15:58:05.3364146-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T15:58:05.3369347-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T15:58:05.3369593-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T15:58:05.3369765-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T15:59:05.1402857-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 419
+2020-03-27T15:59:05.1986998-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T15:59:05.9929645-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T15:59:06.0407190-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T15:59:06.0938709-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T15:59:06.6612065-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"AsesoresAPI.Entities.JsonResult"'.
+2020-03-27T15:59:06.6839012-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 635.9787ms
+2020-03-27T15:59:06.6863126-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T15:59:06.6912918-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1559.2209ms 200 application/json; charset=utf-8
+2020-03-27T16:00:05.9361141-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 413
+2020-03-27T16:00:05.9412418-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T16:00:06.0201306-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:00:06.0208880-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T16:00:06.0236765-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T16:00:06.1690171-06:00 [ERR] [] : Error 
+2020-03-27T16:00:06.1712875-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T16:00:06.1734041-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 152.3492ms
+2020-03-27T16:00:06.1735388-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:00:06.1739517-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 238.2388ms 500 application/json; charset=utf-8
+2020-03-27T16:53:33.6589701-06:00 [INF] [] : Iniciado API...
+2020-03-27T16:53:36.2738437-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-27T16:53:36.8664330-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-03-27T16:53:36.8667201-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-03-27T16:53:36.8669478-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-27T16:53:36.8669711-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-27T16:53:36.8669915-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-03-27T16:53:43.0100376-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-03-27T16:53:43.2287142-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 221.9578ms 200 text/html;charset=utf-8
+2020-03-27T16:53:43.5603729-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-03-27T16:53:43.5908658-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-03-27T16:53:43.6110003-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-03-27T16:53:43.6115421-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 51.2217ms 200 image/png
+2020-03-27T16:53:43.7499590-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 159.1911ms 200 application/json;charset=utf-8
+2020-03-27T16:54:08.1433166-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 413
+2020-03-27T16:54:08.1856495-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T16:54:08.9114802-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:54:08.9779199-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T16:54:09.0228722-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T16:54:09.1334534-06:00 [ERR] [] : Error 
+2020-03-27T16:54:09.1394876-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T16:54:09.1592763-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 169.997ms
+2020-03-27T16:54:09.1594438-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:54:09.1631029-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1020.0449ms 500 application/json; charset=utf-8
+2020-03-27T16:54:38.8884458-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 497
+2020-03-27T16:54:38.8916008-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T16:54:38.9601019-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:54:38.9606980-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T16:54:39.2878293-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2020-03-27T16:54:39.3101972-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 349.278ms
+2020-03-27T16:54:39.3103605-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:54:39.3108984-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 422.5468ms 400 application/problem+json; charset=utf-8
+2020-03-27T16:55:12.7385065-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 425
+2020-03-27T16:55:12.7406537-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T16:55:12.8292789-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:55:12.8299127-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T16:55:12.8365991-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T16:55:12.8746372-06:00 [ERR] [] : Error 
+2020-03-27T16:55:12.8751172-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T16:55:12.8755656-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 45.5086ms
+2020-03-27T16:55:12.8756139-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:55:12.8759044-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 138.0922ms 500 application/json; charset=utf-8
+2020-03-27T16:55:25.2283773-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 425
+2020-03-27T16:55:25.2296410-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T16:55:26.9706981-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:55:26.9727461-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T16:55:26.9754209-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T16:55:27.7560029-06:00 [ERR] [] : Error 
+2020-03-27T16:55:27.7601338-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T16:55:27.7616316-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 788.6146ms
+2020-03-27T16:55:27.7627274-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:55:27.7633716-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2535.047ms 500 application/json; charset=utf-8
+2020-03-27T16:55:37.6939806-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/registro/cliente_buro application/json 425
+2020-03-27T16:55:37.6950770-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-03-27T16:55:37.7588892-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:55:37.7606855-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"RegistraCliente\", controller = \"Registro\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegistraCliente(AsesoresAPI.Entities.Cliente)" on controller "AsesoresAPI.Controllers.RegistroController" ("AsesoresAPI").
+2020-03-27T16:55:37.7639655-06:00 [INF] [AsesoresAPI.Controllers.RegistroController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-03-27T16:55:37.8612711-06:00 [ERR] [] : Error 
+2020-03-27T16:55:37.8620575-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-03-27T16:55:37.8629945-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)" in 101.2978ms
+2020-03-27T16:55:37.8631720-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.RegistroController.RegistraCliente (AsesoresAPI)"'
+2020-03-27T16:55:37.8642292-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 170.3337ms 500 application/json; charset=utf-8
