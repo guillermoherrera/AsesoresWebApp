@@ -14,6 +14,7 @@ namespace WebApi
         {
             var configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json")
+            .AddEnvironmentVariables()
             .Build();
 
             Log.Logger = new LoggerConfiguration()
@@ -40,7 +41,8 @@ namespace WebApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                        .UseUrls("http://0.0.0.0:4000", "https://0.0.0.0:4001");
+                        .UseKestrel();    
+                        //.UseUrls("http://0.0.0.0:4000", "https://0.0.0.0:4001");
                         //("http://0.0.0.0:4000");
                         //.UseKestrel(x =>
                         //{
